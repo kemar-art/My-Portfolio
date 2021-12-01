@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1c1a19;
+    padding-top: 120px;
+    padding-bottom: 55px;
+  }
+  
+  .content h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    color: #f55800;
+    padding-top: 120px;
+    padding-left: 24px;
+  }
+  
+  .content h2 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+  }
+  
+  div p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091e42;
+    padding-top: 65px;
+    padding-left: 78px;
+    word-wrap: break-word;
+  }
+  
+  .content p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-left: 24px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .app nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3c3a39;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    background-color: #1c1a19;
+    background-image: url(../image/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  
+  .content .icon-menu ul {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 12px;
+    list-style: none;
+    padding: 22px 35px;
+  }
+  
+  .app a {
+    font-family: "Figma", sans-serif;
+  }
+  
+  hr {
+    border: 1px solid #212121;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+  
