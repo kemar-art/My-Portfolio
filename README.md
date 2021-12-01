@@ -4,8 +4,6 @@
 
 > This is the first project of my portfolie. It has no functionally as yet.
 
-![screenshot](./image/Illustration.png)
-
 > This project was to show my knowledge of what I have learned on HTML, CSS, and using flexbox.
 
 ## Built With
