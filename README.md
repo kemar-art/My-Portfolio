@@ -4,7 +4,7 @@
 
 > This is the firstpage of my portfolie. It has no functionally as yet.
 
-![screenshot](./Illustration.png)
+![screenshot](../image/Illustration.png)
 
 Additional description about the project and its features.
 
