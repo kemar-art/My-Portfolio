@@ -2,11 +2,8 @@
 
 # My Portfolio
 
-> This is the first project of my portfolie. It has no functionally as yet.
+> This is the first project of my portfolio. It has no functionally as yet.
 
-![screenshot](../image/Illustration.png)
-
-Additional description about the project and its features.
 > This project was to show my knowledge of what I have learned on HTML, CSS, and using flexbox.
 
 ## Built With
