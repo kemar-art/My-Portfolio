@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-  
+
 div h1 {
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@ div h1 {
   padding-top: 120px;
   padding-bottom: 55px;
 }
-  
+
 .content h1 {
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@ div h1 {
   padding-top: 120px;
   padding-left: 24px;
 }
-  
+
 .content h2 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -43,7 +43,7 @@ div h1 {
   align-items: center;
   padding: 10px 24px;
 }
-  
+
 div p {
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@ div p {
   padding-left: 78px;
   word-wrap: break-word;
 }
-  
+
 .content p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -68,12 +68,12 @@ div p {
   color: white;
   padding-left: 24px;
 }
-  
+
 a {
   color: #fff;
   text-decoration: none;
 }
-  
+
 .app nav {
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@ a {
   padding-left: 24px;
   padding-right: 24px;
 }
-  
+
 .content {
   display: flex;
   flex-direction: column;
@@ -93,7 +93,7 @@ a {
   background-repeat: no-repeat;
   background-position: bottom right;
 }
-  
+
 .content .icon-menu ul {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -106,11 +106,11 @@ a {
   list-style: none;
   padding: 22px 35px;
 }
-  
+
 .app a {
   font-family: "Figma", sans-serif;
 }
-  
+
 hr {
   border: 1px solid #212121;
   width: 80%;
