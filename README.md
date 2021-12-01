@@ -2,11 +2,12 @@
 
 # My Portfolio
 
-> This is the firstpage of my portfolie. It has no functionally as yet.
+> This is the first project of my portfolie. It has no functionally as yet.
 
 ![screenshot](../image/Illustration.png)
 
 Additional description about the project and its features.
+> This project was to show my knowledge of what I have learned on HTML, CSS, and using flexbox.
 
 ## Built With
 
@@ -14,8 +15,6 @@ Additional description about the project and its features.
 - CSS
 
 ## Live Demo
-
-[Live Demo Link]()
 
 
 ## Getting Started
@@ -45,6 +44,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Kemar Norton**
 
 - GitHub: [@githubhandle](https://github.com/kemar-art)
+- Lingedin: [@linkedin](www.linkedin.com/in/kemar-norton-2505431b2)
 
 ## 🤝 Contributing
 
