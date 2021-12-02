@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-div h1 {
+div h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -14,7 +14,7 @@ div h1 {
   font-size: 40px;
   line-height: 52px;
   color: #1c1a19;
-  padding-top: 120px;
+  padding-top: 150px;
   padding-bottom: 55px;
 }
 
@@ -55,7 +55,7 @@ div p {
   line-height: 24px;
   color: #091e42;
   padding-top: 65px;
-  padding-left: 78px;
+  padding-left: 30px;
   word-wrap: break-word;
 }
 
@@ -140,7 +140,7 @@ hr {
   line-height: 44px;
   display: flex;
   justify-content: center;
-  padding-top: 195px;
+  padding-top: 240px;
   color: #091e42;
   padding-right: 75px;
 }
@@ -160,7 +160,25 @@ section .button {
     margin-left: 77px;
     margin-right: 77px;
     padding-top: 7px;
-  }
+ }
+}
+
+@media all and (max-width: 800px) {
+  div p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #091e42;
+    padding-top: 65px;
+    padding-left: 78px;
+    padding-right: 95px;
+    word-wrap: break-word;
+ }
 }
 
 section .button .btn-icon1 {
@@ -218,7 +236,7 @@ section .button .btn-icon4:hover {
 .view {
   display: flex;
   justify-content: start;
-  margin-left: 505px;
+  margin-left: 507px;
   margin-right: 510px;
   padding-top: 20px;
   padding-bottom: 100px;
@@ -245,7 +263,7 @@ section .button .btn-icon4:hover {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    margin-left: 72px;
+    margin-left: 74px;
     margin-right: 77px;
     padding-top: 7px;
   }
