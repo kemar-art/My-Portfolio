@@ -2,9 +2,7 @@
 
 # My Portfolio
 
-> This is the first project of my portfolio. It has no functionally as yet.
-
-> This project was to show my knowledge of what I have learned on HTML, CSS, and using flexbox.
+> I have now added the second page to my portfolio project, on this page my proficiency will desplay. But still no functionality added to the page as yet. 
 
 ## Built With
 
