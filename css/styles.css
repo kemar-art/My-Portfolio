@@ -212,7 +212,7 @@ section .button .btn-icon4 {
 
 section .button .btn-icon4:hover {
   text-decoration: underline #18a0fb;
-  border-color: #18a0fb;;
+  border-color: #18a0fb;
 }
 
 .view {
