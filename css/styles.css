@@ -113,10 +113,145 @@ a {
 
 hr {
   border: 1px solid #212121;
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-bottom: 100px;
   border-bottom: none;
   border-left: none;
   border-right: none;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 237px;
+  background-image: url(../image/Placeholder.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 120px;
+}
+
+.img h2 {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  justify-content: center;
+  padding-top: 195px;
+  color: #091e42;
+  padding-right: 75px;
+}
+
+section .button {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 510px;
+  margin-right: 510px;
+}
+
+@media all and (max-width: 800px) {
+  section .button {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 77px;
+    margin-right: 77px;
+    padding-top: 7px;
+  }
+}
+
+section .button .btn-icon1 {
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+section .button .btn-icon1:hover {
+  text-decoration: underline #18a0fb;
+  border-color: #18a0fb;
+}
+
+section .button .btn-icon2 {
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+section .button .btn-icon2:hover {
+  text-decoration: underline #18a0fb;
+  border-color: #18a0fb;
+}
+
+section .button .btn-icon3 {
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+section .button .btn-icon3:hover {
+  text-decoration: underline #18a0fb;
+  border-color: #18a0fb;
+}
+
+section .button .btn-icon4 {
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+section .button .btn-icon4:hover {
+  text-decoration: underline #18a0fb;
+  border-color: #18a0fb;;
+}
+
+.view {
+  display: flex;
+  justify-content: start;
+  margin-left: 505px;
+  margin-right: 510px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.view .see-project {
+  background-color: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  width: 140px;
+  height: 70px;
+  top: 259px;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+}
+
+@media all and (max-width: 800px) {
+  .view {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 72px;
+    margin-right: 77px;
+    padding-top: 7px;
+  }
+}
+
+.view .see-project:hover {
+  text-decoration: underline #18a0fb;
+  border-color: #18a0fb;
 }
