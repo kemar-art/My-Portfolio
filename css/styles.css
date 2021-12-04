@@ -704,10 +704,10 @@ footer .bottom-navigator {
     display: none;
   }
 
-@media screen and (min-width: 1200px) {
-  .posts-display .post-image {
-     max-width: 600px;
-  }
+  @media screen and (min-width: 1200px) {
+      .posts-display .post-image {
+        max-width: 600px;
+      }
   }
 
   .works-section .grid-container {
