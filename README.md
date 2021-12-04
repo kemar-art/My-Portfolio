@@ -2,7 +2,14 @@
 
 # My Portfolio
 
-> I have now added the second page to my portfolio project, on this page my proficiency will desplay. But still no functionality added to the page as yet. 
+> I have now added the second page to my portfolio project, on this page my proficiency will desplay. But still no functionality added to the page as yet.
+
+![image](https://user-images.githubusercontent.com/58619137/144698073-bd9c566b-5a43-42cd-a441-19cf8aaca085.png)
+
+
+
+![image](https://user-images.githubusercontent.com/58619137/144698043-63298bc7-36b0-4c6d-bae5-79b210f71b5e.png)
+
 
 ## Built With
 
