@@ -500,6 +500,14 @@ footer .bottom-navigator {
   align-items: center;
 }
 
+footer ul li {
+  transition: transform 0.3s ease-in;
+}
+
+footer ul li:hover {
+  transform: scale(1.1);
+}
+
 .bottom-navigator .social-media-icons {
   margin: 15px 0;
 }
@@ -713,5 +721,42 @@ footer .bottom-navigator {
   .works-section .grid-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+
+  .top-navbar a:hover {
+    animation: colorChange 0.5s forwards, textChange 0.5s forwards;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: white;
+    }
+    100% {
+      color: #f55800;
+    }
+  }
+  @keyframes textChange {
+    0% {
+      font-size: 14px;
+    }
+    100% {
+      font-size: 20px;
+    }
+  }
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+
+  footer ul li {
+    transition: transform 0.3s ease-in;
+  }
+  
+  footer ul li:hover {
+    transform: scale(1.5);
   }
 }
