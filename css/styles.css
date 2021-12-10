@@ -37,11 +37,16 @@ body > * {
   align-items: flex-start;
 }
 
-.ul-list > * {
+/* .ul-list > * {
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 1;
+} */
+
+.ul-list > * {
+  display: float;
+  
 }
 
 .ul-list .list-item-text {
