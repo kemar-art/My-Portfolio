@@ -508,8 +508,6 @@ footer .bottom-navigator {
   align-items: center;
 }
 
-
-
 .bottom-navigator .social-media-icons {
   margin: 15px 0;
 }
@@ -652,6 +650,14 @@ footer .bottom-navigator {
     display: flex;
   }
 
+  footer ul li {
+    transition: transform 0.3s ease-in;
+  }
+  
+  footer ul li:hover {
+    transform: scale(1.5);
+  }
+
   .aboutme-section {
     background-image: url(../images/illustration-aboutme.svg);
     background-position: right 150px;
@@ -733,6 +739,7 @@ footer .bottom-navigator {
     0% {
       color: white;
     }
+
     100% {
       color: #f55800;
     }
@@ -741,6 +748,7 @@ footer .bottom-navigator {
     0% {
       font-size: 14px;
     }
+
     100% {
       font-size: 20px;
     }
@@ -749,16 +757,9 @@ footer .bottom-navigator {
     0% {
       transform: scale(1);
     }
+
     100% {
       transform: scale(1.2);
     }
-  }
-
-  footer ul li {
-    transition: transform 0.3s ease-in;
-  }
-  
-  footer ul li:hover {
-    transform: scale(1.5);
   }
 }
