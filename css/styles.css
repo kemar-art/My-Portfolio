@@ -241,6 +241,14 @@ header {
   color: #dbd8d7;
 }
 
+footer ul li {
+  transition: transform 0.3s ease-in;
+}
+
+footer ul li:hover {
+  transform: scale(1.1);
+}
+
 .works-section .section-title {
   color: #091e42;
 }
@@ -500,14 +508,6 @@ footer .bottom-navigator {
   align-items: center;
 }
 
-footer ul li {
-  transition: transform 0.3s ease-in;
-}
-
-footer ul li:hover {
-  transform: scale(1.1);
-}
-
 .bottom-navigator .social-media-icons {
   margin: 15px 0;
 }
@@ -650,6 +650,14 @@ footer ul li:hover {
     display: flex;
   }
 
+  footer ul li {
+    transition: transform 0.3s ease-in;
+  }
+
+  footer ul li:hover {
+    transform: scale(1.5);
+  }
+
   .aboutme-section {
     background-image: url(../images/illustration-aboutme.svg);
     background-position: right 150px;
@@ -726,37 +734,34 @@ footer ul li:hover {
   .top-navbar a:hover {
     animation: colorChange 0.5s forwards, textChange 0.5s forwards;
   }
-  
+
   @keyframes colorChange {
     0% {
       color: white;
     }
+
     100% {
       color: #f55800;
     }
   }
+
   @keyframes textChange {
     0% {
       font-size: 14px;
     }
+
     100% {
       font-size: 20px;
     }
   }
+
   @keyframes scaleUp {
     0% {
       transform: scale(1);
     }
+
     100% {
       transform: scale(1.2);
     }
-  }
-
-  footer ul li {
-    transition: transform 0.3s ease-in;
-  }
-  
-  footer ul li:hover {
-    transform: scale(1.5);
   }
 }
