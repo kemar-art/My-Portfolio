@@ -653,7 +653,7 @@ footer .bottom-navigator {
   footer ul li {
     transition: transform 0.3s ease-in;
   }
-  
+
   footer ul li:hover {
     transform: scale(1.5);
   }
@@ -754,11 +754,11 @@ footer .bottom-navigator {
       font-size: 20px;
     }
   }
-  
+
   @keyframes scaleUp {
     0% {
       transform: scale(1);
-    }
+  }
 
     100% {
       transform: scale(1.2);
