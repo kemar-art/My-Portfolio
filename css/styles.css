@@ -734,7 +734,7 @@ footer .bottom-navigator {
   .top-navbar a:hover {
     animation: colorChange 0.5s forwards, textChange 0.5s forwards;
   }
-  
+
   @keyframes colorChange {
     0% {
       color: white;
@@ -744,6 +744,7 @@ footer .bottom-navigator {
       color: #f55800;
     }
   }
+
   @keyframes textChange {
     0% {
       font-size: 14px;
@@ -753,6 +754,7 @@ footer .bottom-navigator {
       font-size: 20px;
     }
   }
+  
   @keyframes scaleUp {
     0% {
       transform: scale(1);
