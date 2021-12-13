@@ -241,6 +241,14 @@ header {
   color: #dbd8d7;
 }
 
+footer ul li {
+  transition: transform 0.3s ease-in;
+}
+
+footer ul li:hover {
+  transform: scale(1.1);
+}
+
 .works-section .section-title {
   color: #091e42;
 }
@@ -500,13 +508,7 @@ footer .bottom-navigator {
   align-items: center;
 }
 
-footer ul li {
-  transition: transform 0.3s ease-in;
-}
 
-footer ul li:hover {
-  transform: scale(1.1);
-}
 
 .bottom-navigator .social-media-icons {
   margin: 15px 0;
