@@ -180,7 +180,7 @@ header {
   color: #fff;
 }
 
-.top-navbar.menu-icon {
+.top-navbar .menu-icon {
   width: 24px;
   height: 24px;
   display: flex;
@@ -194,7 +194,7 @@ header {
   position: relative;
 }
 
-.top-navbar.icon-join .bar {
+.top-navbar .icon-join .bar {
   width: 16px;
   height: 2px;
   background: #fff;
