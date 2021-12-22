@@ -181,7 +181,7 @@ header {
   .hr-bar2 {
     display: none;
   }
-  
+
   @keyframes colorChange {
     0% {
       color: white;
