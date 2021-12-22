@@ -159,13 +159,9 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #3e3c3c;
-    padding: 9px 24px;
+    padding: 1px 24px;
   }
 
-  .top-navbar {
-    padding: 1px 100px;
-}
-  
   .top-navbar .menu-list {
     display: flex;
   }
