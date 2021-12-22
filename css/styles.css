@@ -165,50 +165,50 @@ header {
   .top-navbar .menu-list {
     display: flex;
   }
-  
+
   .top-navbar .menuIcon {
     display: none;
   }
-  
+
   .top-navbar a:hover {
     animation: colorChange 0.5s forwards, textChange 0.5s forwards;
   }
 
-  .top-navbar .menu-list .hr-bar1{
+  .top-navbar .menu-list .hr-bar1 {
     display: none;
   }
 
   .hr-bar2 {
     display: none;
   }
-    
-    @keyframes colorChange {
-        0% {
-        color: white;
-      }
-
-      100% {
-        color: #f55800;
-      }
-    }
-
-    @keyframes textChange {
-      0% {
-        font-size: 14px;
-      }
-
-      100% {
-        font-size: 20px;
-      }
-    }
   
-    @keyframes scaleUp {
-      0% {
-        transform: scale(1);
-      }
+  @keyframes colorChange {
+    0% {
+      color: white;
+    }
 
-      100% {
-        transform: scale(1.2);
-      }
+    100% {
+      color: #f55800;
     }
   }
+
+  @keyframes textChange {
+    0% {
+      font-size: 14px;
+    }
+
+    100% {
+      font-size: 20px;
+    }
+  }
+
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.2);
+    }
+  }
+}
