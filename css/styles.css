@@ -100,8 +100,7 @@ header {
    text-align: center;
   list-style: none;
   line-height: 4em;
-  color:
-
+  color: #fff;
 }
 
 #menu.active {
@@ -167,8 +166,8 @@ li > a:link,
 li > a:active {
   text-decoration: none;
   color: #fff;
-
-@media screen and (min-width: 992px) {
+}
+@media (min-width: 992px) {
   .box-join-title {
     width: 100%;
     flex-direction: row;
